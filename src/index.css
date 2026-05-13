@@ -1,0 +1,20 @@
+/* Estilos globais e Configuração do Tema Tailwind */
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0ea5e9; /* Azul Vibrante Principal */
+  --color-accent: #facc15;  /* Amarelo de Destaque */
+  --color-neutral-bg: #ffffff; /* Fundo Branco Puro */
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Animação suave para entrada de elementos */
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-slide-in {
+  animation: slideIn 0.4s ease-out forwards;
+}

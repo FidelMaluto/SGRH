@@ -1,0 +1,6 @@
+{
+  "name": "SGRH",
+  "description": "Sistema de Gestão de Recursos Humanos - Plataforma completa para RH.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["Gestão de RH", "Folha de Pagamento", "Recrutamento"]
+}
